@@ -36,7 +36,8 @@ namespace CommanderGQL
              services
                 .AddGraphQLServer()
                 .AddQueryType<Query>()
-                .AddProjections()
+                // .AddProjections() removed after projection is discardeds
+                .AddMutationType<Mutation>()
                 .AddType<PlatformType>()
                 .AddType<CommandType>()
                 .AddFiltering()
