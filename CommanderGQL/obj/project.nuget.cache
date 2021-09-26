@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "tLPAyzjrM/l1wuNYEmBf8JEaY08tevBg+Tm21h9as+0lL3L4JDDN6ySFUKM2FN04xrBOVdJmgi5jbn/7VVlURw==",
+  "dgSpecHash": "GZyOjdtxjJRiQZhRPba7hn5O4qosUjosXgGkoOwUOEbcZ/k5a8vkUi56xP+Mqz25I/lUmLtqJWbCxrF1WdcsNQ==",
   "success": true,
   "projectFilePath": "E:\\workspace\\learning\\dotnet-gql\\CommanderGQL\\CommanderGQL.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\snitw\\.nuget\\packages\\graphql.server.ui.voyager\\5.0.2\\graphql.server.ui.voyager.5.0.2.nupkg.sha512",
+    "C:\\Users\\snitw\\.nuget\\packages\\graphql.server.ui.voyager\\4.4.1\\graphql.server.ui.voyager.4.4.1.nupkg.sha512",
     "C:\\Users\\snitw\\.nuget\\packages\\greendonut\\11.3.8\\greendonut.11.3.8.nupkg.sha512",
     "C:\\Users\\snitw\\.nuget\\packages\\hotchocolate\\11.3.8\\hotchocolate.11.3.8.nupkg.sha512",
     "C:\\Users\\snitw\\.nuget\\packages\\hotchocolate.abstractions\\11.3.8\\hotchocolate.abstractions.11.3.8.nupkg.sha512",
