@@ -39,6 +39,8 @@ namespace CommanderGQL
                 .AddProjections()
                 .AddType<PlatformType>()
                 .AddType<CommandType>()
+                .AddFiltering()
+                .AddSorting()
                 .ModifyRequestOptions(opt => opt.IncludeExceptionDetails = _env.IsDevelopment()); 
         }
 
