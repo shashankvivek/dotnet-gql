@@ -12,6 +12,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using GraphQL.Server.Ui.Voyager;
+using CommanderGQL.GraphQL.Platforms;
 
 namespace CommanderGQL
 {
@@ -35,7 +36,8 @@ namespace CommanderGQL
                 .AddGraphQLServer()
                 .AddQueryType<Query>()
                 .AddProjections()
-                .ModifyRequestOptions(opt => opt.IncludeExceptionDetails = _env.IsDevelopment());  ;
+                .AddType<PlatformType>()
+                .ModifyRequestOptions(opt => opt.IncludeExceptionDetails = _env.IsDevelopment()); 
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
