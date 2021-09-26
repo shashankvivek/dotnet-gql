@@ -9,14 +9,14 @@ namespace CommanderGQL.GraphQL
     public class Query
     {
         [UseDbContext(typeof(AppDbContext))]
-        [UseProjection]
+        // [UseProjection] should be commented after code first approach of mapping and resolving
         public IQueryable<Platform> GetPlatform([ScopedService] AppDbContext context)
         {
             return context.Platforms;    
         }
 
         [UseDbContext(typeof(AppDbContext))]
-        [UseProjection]
+        // [UseProjection] should be commented after code first approach of mapping and resolving
         public IQueryable<Command> GetCommand([ScopedService] AppDbContext context)
         {
             return context.Commands;
